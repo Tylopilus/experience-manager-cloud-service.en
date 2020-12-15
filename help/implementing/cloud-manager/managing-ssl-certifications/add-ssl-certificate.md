@@ -6,7 +6,7 @@ description: Adding an SSL Certificate - Managing SSL Certificates
 # Adding an SSL Certificate {#adding-an-ssl-certificate}
 
 >[!NOTE]
->AEM as a Cloud Service will only accept OV(Organization Validation) or EV(Extended Validation) certificates. DV(Domain Validation) certificates will not be accepted. In addition, any certificate must be a X.509 TLS certificate from a trusted certification authority (CA) with a matching 2048-bit RSA private key.
+>AEM as a Cloud Service will only accept OV(Organization Validation) or EV(Extended Validation) certificates. DV(Domain Validation) certificates will not be accepted. In addition, any certificate must be a X.509 TLS certificate from a trusted certification authority (CA) with a matching 2048-bit RSA private key. The private key must not be secured by a passphrase.
 
 A Certificate takes a few days to provision and it is recommended that the certificate be provisioned even months in advance. Refer to [Getting an SSL Certificate](/help/implementing/cloud-manager/managing-ssl-certifications/get-ssl-certificate.md) for more details.
 
